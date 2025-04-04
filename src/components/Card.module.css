@@ -1,0 +1,43 @@
+.card {
+    width: 380px;
+    height: 100vh;
+    /* border: 1px solid black; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.crds {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    background-color: aliceblue;
+}
+
+.list {
+    list-style: none;
+}
+
+
+.colorsN {
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.colorsN:hover {
+    transform: scale(1.2); 
+}
+
+.df {
+    display: flex;
+    gap: 30px;
+}
+
